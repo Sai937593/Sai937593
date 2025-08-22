@@ -26,14 +26,6 @@ I'm an aspiring Data Scientist passionate about building end-to-end MLOps and re
 
 ---
 
-### 📊 My GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sai937593&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sai937593&layout=compact&langs_count=7&theme=dracula"/>
-</p>
-
----
 
 ### 📫 Connect with Me
 
@@ -41,7 +33,7 @@ I'm an aspiring Data Scientist passionate about building end-to-end MLOps and re
   <a href="https://www.linkedin.com/in/sai-nivas-kalicherla-684234229/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://www.kaggle.com/sainivask" target="_blank">
+  <a href="https://www.kaggle.com/nainiv/competitions" target="_blank">
     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/>
   </a>
 </p>
