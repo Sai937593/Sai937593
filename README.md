@@ -1,39 +1,83 @@
-# Hi, I'm Sai Nivas Kalicherla 👋
+## Hi, I'm Sai Nivas Kalicherla 👋
+Data Scientist focused on real-time MLOps, RAG systems, and time series forecasting. I build cloud-native AI systems that are reliable in production and deliver measurable impact across fintech and e‑commerce.
 
-I'm an aspiring Data Scientist passionate about building end-to-end MLOps and real-time data systems. I enjoy architecting robust, scalable solutions to turn machine learning models into practical, data-driven products. My project work focuses on the entire lifecycle, from engineering complex data pipelines to deploying and monitoring AI applications in the cloud.
-
----
-
-### 🛠️ My Tech Stack
-
-| **Languages** | **MLOps & Cloud** | **Libraries & Frameworks** | **Data & Tools** |
-| :--- | :--- | :--- | :--- |
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white) | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) |
-| ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) | ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) |
-| | ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white) | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white) | ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black) |
-| | | ![LangChain](https://img.shields.io/badge/LangChain-FFFFFF?style=for-the-badge&logo=langchain&logoColor=black) | ![FAISS](https://img.shields.io/badge/FAISS-4A90E2?style=for-the-badge&logo=facebook&logoColor=white) |
+- **Now**: Shipping real-time pipelines, RAG assistants, and forecasting systems
+- **Strengths**: Low-latency inference, observability-first MLOps, responsible AI, practical model improvements
+- **Looking for**: Opportunities in applied ML, MLOps, and data platforms
 
 ---
 
-### 🚀 My Featured Projects
-
-| Project | Description |
-| :--- | :--- |
-| **[Real-Time Fraud Detection System](https://github.com/Sai937593/real-time-fraud-detection)** | An end-to-end system that detects fraudulent transactions in real-time. Features a streaming pipeline with Pub/Sub, a stateful prediction service with FastAPI and Redis, and data sinks to BigQuery for analytics and alerting. |
-| **[Fintech RAG Document Q&A](https://github.com/Sai937593/Fintech-RAG-Document-QA)** | A Retrieval-Augmented Generation (RAG) system for querying complex financial documents. Implements state-of-the-art open-source models (Gemma 2, Nomic Embed) and a FAISS vector store for efficient semantic search. |
-| **[Real-Time E-Commerce Analytics Dashboard](https://github.com/Sai937593/Real-Time-E-Commerce-Analytics-Dashboard)** | A complete real-time analytics pipeline on GCP. Ingests a live stream of e-commerce events via Pub/Sub, processes them with a scalable FastAPI service, and visualizes live KPIs in a Grafana dashboard. |
-| **[Fraud Detection MLOps](https://github.com/Sai937593/fraud-detection-mlops)** | A foundational MLOps project to productionize an XGBoost model. Features a REST API with FastAPI, containerization with Docker, and a full CI/CD pipeline using GitHub Actions to automate deployment to Google Cloud Run. |
+### 🧠 Core Skills
+- **Languages**: Python, SQL
+- **ML/DL**: TensorFlow, PyTorch, Keras, Scikit-Learn, XGBoost, Transformers, LangChain
+- **Cloud & MLOps**: Docker, GitHub Actions, Google Cloud Run, Pub/Sub, Redis, Grafana
+- **Data & Tools**: PowerBI, Matplotlib, Seaborn, Optuna, FAISS, InfluxDB
+- **Concepts**: Classification/Regression, Time Series, RAG, A/B Testing, Explainability (SHAP, LIME), Statistical Modeling
 
 ---
 
+### 🚀 Featured Projects
+- **Real-Time Fraud Detection System**  
+  End-to-end streaming pipeline on GCP with stateful FastAPI + Redis, BigQuery sinks, and Grafana dashboards.
+  - 50K+ tx/min, <2s detection latency, continuous retraining via Pub/Sub triggers  
+  Repo: `https://github.com/Sai937593/real-time-fraud-detection`
 
-### 📫 Connect with Me
+- **Fintech RAG Document Q&A**  
+  High-fidelity Q&A for financial reports using nomic-embed-text-v1.5 + quantized Gemma 9B, FAISS + recursive chunking.  
+  Repo: `https://github.com/Sai937593/Fintech-RAG-Document-QA`
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/sai-nivas-kalicherla-684234229/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://www.kaggle.com/nainiv/competitions" target="_blank">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/>
-  </a>
-</p>
+- **Real-Time E‑Commerce Analytics Dashboard**  
+  Live KPIs with Pub/Sub ingestion, scalable FastAPI processing, and Grafana visualization on GCP.  
+  Repo: `https://github.com/Sai937593/Real-Time-E-Commerce-Analytics-Dashboard`
+
+- **Fraud Detection MLOps**  
+  Productionized XGBoost with FastAPI, Docker, and CI/CD to Cloud Run.  
+  Repo: `https://github.com/Sai937593/fraud-detection-mlops`
+
+- **Automated Multimodal Marketing Content Generation**  
+  LLM-powered pipeline for generating on-brand copy and images with post-processing for publish-ready assets.  
+  Repo: `https://github.com/Sai937593/Automated-Multimodal-Marketing-Content-Generation`  <!-- update if different -->
+
+---
+
+### 🏢 Experience
+- **Data Scientist Intern — Shiash Solutions** (Jan 2023 – May 2023)  
+  - +20% dataset quality via outlier handling & imputation → improved model performance  
+  - Built XGBoost fraud model (ROC‑AUC 0.87); +15% recall with SMOTE + tuning  
+  - Automated feature engineering → 30% faster iteration  
+  - Delivered stakeholder dashboards for fraud insights and model KPIs
+
+---
+
+### 📈 Recent Work
+- **Responsible AI: Loan Approval Fairness**  
+  - XGBoost (AUC 0.86); identified 31.6% approval disparity  
+  - SHAP analysis showed bias from socio-economic features (not explicit discrimination)  
+  - Reweighing mitigation cut fairness gap by 65% with ~3.3% accuracy trade-off
+
+- **MITSUI Commodity Price Forecasting**  
+  - ARIMA, Prophet, LSTM with seasonality decomposition and lag features  
+  - Improved accuracy and delivered decision-support dashboards for trading
+
+- **RAG for Financial Reports**  
+  - FAISS index + recursive chunking → 40% lower semantic search latency  
+  - Quantized Gemma 9B for efficient, high-fidelity answers
+
+---
+
+### 🎓 Professional Development
+Transformers & Attention • Generative Models (GANs, VAEs) • Advanced Deep Learning • Tree-Based Ensembles (ongoing) • Data Science Program (Odin School)
+
+---
+
+### 📬 Connect
+- LinkedIn: `https://www.linkedin.com/in/sai-nivas-kalicherla-067477301/`
+- GitHub: `https://github.com/Sai937593`
+- Email: `sainivaskalicherla@gmail.com`
+
+---
+
+### ⚙️ How I Work
+- Observability-first: metrics, drift, latency, and error budgets by default  
+- Reproducibility: versioned data/models, automated CI/CD, containerized services  
+- Practicality: ship reliable ML that’s maintainable, measurable, and useful
