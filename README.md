@@ -1,83 +1,79 @@
-## Hi, I'm Sai Nivas Kalicherla 👋
-Data Scientist focused on real-time MLOps, RAG systems, and time series forecasting. I build cloud-native AI systems that are reliable in production and deliver measurable impact across fintech and e‑commerce.
+# Hi, I'm Sai Nivas Kalicherla 👋
 
-- **Now**: Shipping real-time pipelines, RAG assistants, and forecasting systems
-- **Strengths**: Low-latency inference, observability-first MLOps, responsible AI, practical model improvements
-- **Looking for**: Opportunities in applied ML, MLOps, and data platforms
+AI/ML Engineer focused on agentic RAG systems, real-time MLOps, and production LLM pipelines. I build systems that are grounded, observable, and reliable — not just demos.
 
----
-
-### 🧠 Core Skills
-- **Languages**: Python, SQL
-- **ML/DL**: TensorFlow, PyTorch, Keras, Scikit-Learn, XGBoost, Transformers, LangChain
-- **Cloud & MLOps**: Docker, GitHub Actions, Google Cloud Run, Pub/Sub, Redis, Grafana
-- **Data & Tools**: PowerBI, Matplotlib, Seaborn, Optuna, FAISS, InfluxDB
-- **Concepts**: Classification/Regression, Time Series, RAG, A/B Testing, Explainability (SHAP, LIME), Statistical Modeling
+- **Now:** Agentic retrieval systems, hybrid vector search, real-time data pipelines
+- **Strengths:** LangGraph agent design, hybrid retrieval (BGE-M3 + ColBERT), observability-first MLOps, responsible AI
+- **Looking for:** AI Engineer, ML Engineer, and MLOps roles
 
 ---
 
-### 🚀 Featured Projects
-- **Real-Time Fraud Detection System**  
-  End-to-end streaming pipeline on GCP with stateful FastAPI + Redis, BigQuery sinks, and Grafana dashboards.
-  - 50K+ tx/min, <2s detection latency, continuous retraining via Pub/Sub triggers  
-  Repo: `https://github.com/Sai937593/real-time-fraud-detection`
+## 🧠 Core Skills
 
-- **Fintech RAG Document Q&A**  
-  High-fidelity Q&A for financial reports using nomic-embed-text-v1.5 + quantized Gemma 9B, FAISS + recursive chunking.  
-  Repo: `https://github.com/Sai937593/Fintech-RAG-Document-QA`
+**Languages:** Python, SQL
 
-- **Real-Time E‑Commerce Analytics Dashboard**  
-  Live KPIs with Pub/Sub ingestion, scalable FastAPI processing, and Grafana visualization on GCP.  
-  Repo: `https://github.com/Sai937593/Real-Time-E-Commerce-Analytics-Dashboard`
+**Generative AI & Retrieval:** Agentic RAG · LangGraph · LlamaIndex · LangChain · BGE-M3 · ColBERT · Qdrant · FAISS · Transformers · Prompt Engineering · RLHF
 
-- **Fraud Detection MLOps**  
-  Productionized XGBoost with FastAPI, Docker, and CI/CD to Cloud Run.  
-  Repo: `https://github.com/Sai937593/fraud-detection-mlops`
+**ML & DL:** Scikit-learn · XGBoost · TensorFlow · PyTorch · Keras · SHAP · A/B Testing · Statistical Modeling
 
-- **Automated Multimodal Marketing Content Generation**  
-  LLM-powered pipeline for generating on-brand copy and images with post-processing for publish-ready assets.  
-  Repo: `https://github.com/Sai937593/Automated-Multimodal-Marketing-Content-Generation`  <!-- update if different -->
+**MLOps & Infra:** GCP (Pub/Sub, Cloud Run, BigQuery) · Docker · FastAPI · Redis · Grafana · LangSmith · ETL
+
+**Learning:** Apache Spark · Apache Airflow · GANs · VAEs · RNNs
 
 ---
 
-### 🏢 Experience
-- **Data Scientist Intern — Shiash Solutions** (Jan 2023 – May 2023)  
-  - +20% dataset quality via outlier handling & imputation → improved model performance  
-  - Built XGBoost fraud model (ROC‑AUC 0.87); +15% recall with SMOTE + tuning  
-  - Automated feature engineering → 30% faster iteration  
-  - Delivered stakeholder dashboards for fraud insights and model KPIs
+## 🚀 Projects
+
+### [Intelligent Compliance Q&A — Agentic RAG for Regulatory Documents](https://github.com/Sai937593/Intelligent-Compliance-Q-A-System-for-an-NBFC)
+Agentic RAG system for an NBFC compliance team. Replaces 5–7 hours/day of manual RBI/SEBI circular research with cited answers in under 30 seconds.
+
+- 7-node LangGraph ReAct agent — conditional edges for refusal, re-retrieval, and adversarial premise contradiction. Full trace via LangSmith.
+- Hybrid BGE-M3 retrieval (dense + sparse) with ColBERT MaxSim reranker (top-50 → top-10) — handles exact regulatory terms (CRAR, NPA, NBFC-ND-SI) that pure semantic search misses
+- HierarchicalNodeParser (LlamaIndex) for parent-child chunk indexing — citations resolve to exact circular number + clause
+- Two-stage refusal: ColBERT score pre-filter + LLM relevance judge (confidence 0–10)
+- **Eval: 9/9 in-scope queries answered with citations · 1/1 OOS query correctly refused**
+- Stack: `LangGraph` `LlamaIndex` `BGE-M3` `ColBERT` `Qdrant` `LiteLLM` `FastAPI SSE` `pymupdf4llm`
 
 ---
 
-### 📈 Recent Work
-- **Responsible AI: Loan Approval Fairness**  
-  - XGBoost (AUC 0.86); identified 31.6% approval disparity  
-  - SHAP analysis showed bias from socio-economic features (not explicit discrimination)  
-  - Reweighing mitigation cut fairness gap by 65% with ~3.3% accuracy trade-off
+### [Real-Time Fraud Detection System — MLOps on GCP](https://github.com/Sai937593/fraud-detection-mlops)
+End-to-end streaming fraud detection pipeline with full MLOps instrumentation.
 
-- **MITSUI Commodity Price Forecasting**  
-  - ARIMA, Prophet, LSTM with seasonality decomposition and lag features  
-  - Improved accuracy and delivered decision-support dashboards for trading
-
-- **RAG for Financial Reports**  
-  - FAISS index + recursive chunking → 40% lower semantic search latency  
-  - Quantized Gemma 9B for efficient, high-fidelity answers
+- 50K+ transactions/min · sub-2s detection latency via stateful FastAPI + Redis inference service
+- Pub/Sub → BigQuery streaming for continuous model retraining and real-time alerts
+- Grafana dashboard tracking fraud rates, model drift, and pipeline throughput
+- Stack: `GCP` `Pub/Sub` `BigQuery` `Cloud Run` `FastAPI` `Redis` `Docker` `Grafana`
 
 ---
 
-### 🎓 Professional Development
-Transformers & Attention • Generative Models (GANs, VAEs) • Advanced Deep Learning • Tree-Based Ensembles (ongoing) • Data Science Program (Odin School)
+### [Responsible AI — Bias Audit & Mitigation in Loan Approvals](https://github.com/Sai937593/Fairness-in-Lending-Audit)
+Fairness audit on historical loan approval data with quantified mitigation.
+
+- Identified 31.6% approval rate disparity across demographic groups
+- SHAP analysis traced bias to socio-economic features in training data — not explicit discrimination
+- Reweighing mitigation cut fairness gap by 65% with only 3.3% accuracy tradeoff
+- Stack: `XGBoost` `SHAP` `Scikit-learn` `Pandas` `Matplotlib`
 
 ---
 
-### 📬 Connect
-- LinkedIn: `https://www.linkedin.com/in/sai-nivas-kalicherla-067477301/`
-- GitHub: `https://github.com/Sai937593`
-- Email: `sainivaskalicherla@gmail.com`
+## 🏢 Experience
+
+**Generalist Ops (Contract) · Deccan AI** — Dec 2025 – Present
+Quality control of RLHF annotation outputs for production LLM training pipelines. Hands-on exposure to annotation QC processes and LLM fine-tuning data workflows at scale.
+
+**Data Scientist Intern · Shiash Solutions** — Jan 2023 – May 2023
+XGBoost fraud model (ROC-AUC 0.87, +15% recall via SMOTE + Optuna). Automated feature engineering pipeline cutting iteration time by 30%. Stakeholder dashboards for model KPIs.
 
 ---
 
-### ⚙️ How I Work
-- Observability-first: metrics, drift, latency, and error budgets by default  
-- Reproducibility: versioned data/models, automated CI/CD, containerized services  
-- Practicality: ship reliable ML that’s maintainable, measurable, and useful
+## 🎓 Education & Development
+
+B.Tech, Computer Science · Vellore Institute of Technology (VIT)
+
+Data Science Program · Odin School · Self-study: Agentic RAG, LangGraph, LlamaIndex, Transformers, GANs, VAEs, RNNs · Currently learning: Apache Spark, Apache Airflow
+
+---
+
+## 📬 Connect
+
+[LinkedIn](https://www.linkedin.com/in/sai-nivas-kalicherla-067477301/) · [GitHub](https://github.com/Sai937593) · sainivaskalicherla@gmail.com
